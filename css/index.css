@@ -51,3 +51,21 @@ footer p {
     background-color: #760909;
     color: #fff;
 }
+
+.display .image-div {
+    height: 380px;
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.display h4 {
+    font-weight: bold;
+    color: #FFA500;
+}
+
+.image-div img {
+    max-width: 100%;
+}
+
+.display {}
