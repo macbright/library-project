@@ -1,0 +1,53 @@
+.form-wrap {
+    padding: 20px;
+    background-color: #ededed;
+    border-radius: 10px;
+}
+
+.form-wrap h3 {
+    color: #FFA500;
+    font-weight: bold;
+    text-shadow: 1px 1px;
+}
+
+.submit-book {
+    padding: 6px 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    float: right;
+    background-color: #FFA500;
+    color: #fff;
+}
+
+.submit-book:hover {
+    background-color: #d59108f3;
+    color: #fff;
+}
+
+footer {
+    height: 100px;
+    background-color: #1c1a1a;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+footer p {
+    vertical-align: middle;
+}
+
+.close-button {
+    background-color: #f50707;
+    padding: 6px 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    float: right;
+    color: #fff;
+}
+
+.close-button:hover {
+    background-color: #760909;
+    color: #fff;
+}
