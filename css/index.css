@@ -1,13 +1,24 @@
+body{
+    background: #dfdfdffd;
+}
+.book-store-title{
+    color: #FFA500;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
 .form-wrap {
     padding: 20px;
-    background-color: #ededed;
+    background-color: #b4b4b4fd;
     border-radius: 10px;
+    display: none;
+    position:absolute;
+    top: 5;
+    z-index: 1;
+    left: 35%;
 }
-
 .form-wrap h3 {
     color: #FFA500;
     font-weight: bold;
-    text-shadow: 1px 1px;
 }
 
 .submit-book {
@@ -17,6 +28,19 @@
     float: right;
     background-color: #FFA500;
     color: #fff;
+}
+.delete-me{
+    color: white;
+    background: #ff0000;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.delete-me:hover{
+    color: white;
+    background: #ff0000be;
+    padding: 5px;
 }
 
 .submit-book:hover {
@@ -51,7 +75,13 @@ footer p {
     background-color: #760909;
     color: #fff;
 }
-
+.display{
+    background-color: #fff;
+    padding: 2.5%;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 6px -6px #777;
+}
 .display .image-div {
     height: 380px;
     width: 100%;
@@ -68,4 +98,3 @@ footer p {
     max-width: 100%;
 }
 
-.display {}

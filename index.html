@@ -13,6 +13,7 @@
 <body>
 
     <div class="container">
+        <h1 class="text-center mt-2 book-store-title">Book Store Project</h1>
         <button class="btn submit-book float-left m"> Add Book </button>
         <div class="clearfix"></div>
         <div class="row bookss mt-4">
@@ -46,13 +47,14 @@
                     </div>
                     <div class="form-group">
                         <label for="image"> Cover book image url</label>
-                        <input type="text" id="image" class="form-control" placeholder="http://www.example.com/coverpage.jpeg">
+                        <input type="text" id="image" class="form-control"
+                            placeholder="http://www.example.com/coverpage.jpeg">
                     </div>
 
                     <div class="d-flex">
                         <button type="button" class="btn submit-book submit"> Submit </button>
 
-                        <button type="button" class="btn ml-3 close-button"> Close </button>
+                        <button type="button" class="btn ml-3 close-button" onclick="closeForm()"> Close </button>
                     </div>
 
                     <div class="clearfix"></div>

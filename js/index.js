@@ -56,8 +56,8 @@ form.addEventListener('click', (e) => {
 
 function render(newbook) {
     for (let i = 0; i < newbook.length; i++) {
-        let display = document.createElement('div')
-        display.classList.add('col-md-4', "display")
+        let display = document.createElement('div');
+        display.classList.add('col-md-4', "display");
         const imageDiv = document.createElement('div');
         const image = document.createElement('img');
         imageDiv.classList.add('image-div');
@@ -93,6 +93,11 @@ function render(newbook) {
         isbn.innerHTML = `ISBN NUMBER:      ${newbook[i].isbn}`;
         display.appendChild(isbn);
 
+        const deleteBut = document.createElement('button');
+        deleteBut.innerHTML = 'Delete Book'
+        deleteBut.classList.add('delete-me')
+        display.appendChild(deleteBut);
+
         let bookss = document.querySelector('.bookss')
         bookss.appendChild(display)
 
@@ -111,4 +116,16 @@ function clear() {
         inputs[i].value = '';
 
     }
+}
+const bookss = document.querySelector('.bookss')
+const formSubmitter = document.querySelector('.form-wrap')
+const toggleForm = document.querySelector('.submit-book')
+toggleForm.addEventListener('click', function () {
+    formSubmitter.style.display = 'block'
+    bookss.style.opacity = 0.1
+})
+
+function closeForm() {
+    formSubmitter.style.display = 'none'
+    bookss.style.opacity = 1
 }
