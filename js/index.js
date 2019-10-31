@@ -125,7 +125,7 @@ function render(books) {
 
         display.appendChild(readBtn);
         readBtn.addEventListener('click', function(e) {
-            if (e.target.innerHTML === 'Read') {
+            if (e.target.innerHTML === 'Read' ) {
                 return e.target.innerHTML = 'Not read'
             } else {
                 return e.target.innerHTML = 'Read'
@@ -143,7 +143,7 @@ function render(books) {
         deleteBut.addEventListener('click', () => {
             let displayAll = document.getElementsByClassName('display')
             for (let j = 0; j < displayAll.length; j++) {
-                console.log(i, j);
+                
                 if (i == j) {
                     bookss.removeChild(displayAll[j])
                 } else {
