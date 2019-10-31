@@ -26,15 +26,15 @@
                 <form action="" , method="post">
                     <div class="form-group">
                         <label for="title"> Title</label>
-                        <input type="text" id="title" class="form-control" placeholder="Enter book title">
+                        <input type="text" id="title" class="form-control" placeholder="Enter book title" required>
                     </div>
                     <div class="form-group">
                         <label for="author"> Author</label>
-                        <input type="text" id="author" class="form-control" placeholder="Enter book author">
+                        <input type="text" id="author" class="form-control" placeholder="Enter book author" required>
                     </div>
                     <div class="form-group">
                         <label for="pages"> Pages</label>
-                        <input type="text" id="pages" class="form-control" placeholder="Enter book number of pages">
+                        <input type="text" id="pages" class="form-control" placeholder="Enter book number of pages" required>
                     </div>
                     <div class="form-group">
                         <label for="publisher"> Publisher</label>
@@ -47,11 +47,17 @@
                     </div>
                     <div class="form-group">
                         <label for="image"> Cover book image url</label>
-                        <input type="text" id="image" class="form-control"
-                            placeholder="http://www.example.com/coverpage.jpeg">
+                        <input type="text" id="image" class="form-control" placeholder="http://www.example.com/coverpage.jpeg">
                     </div>
 
-                    <div class="d-flex">
+
+                    <div class="form-group">
+                        <label for="hasBeenRead"> Read Status</label>
+                        <input type="text" id="hasBeenRead" class="form-control" placeholder="Read or Not Read" required>
+                    </div>
+
+
+                    <div class="d-flex  mt-4">
                         <button type="button" class="btn submit-book submit"> Submit </button>
 
                         <button type="button" class="btn ml-3 close-button" onclick="closeForm()"> Close </button>
