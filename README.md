@@ -26,9 +26,9 @@ $ cd library-project
 
 > open index.html with your favourite web browser.
 
-## Deployment
+## Live Demo
 
-The demo page can be found [HERE](https://forison.github.io/library-project/)
+The demo page can be found [HERE](https://raw.githack.com/macbright/library-project/master/index.html)
 
 ## Designed and developed by
 
